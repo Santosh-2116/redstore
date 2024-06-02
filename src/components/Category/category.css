@@ -1,0 +1,72 @@
+.feature-category{
+    margin: 70px auto;
+}
+
+.feature-category .small-container{
+    max-width: 1180px;
+    margin: auto;
+}
+
+.feature-category .title{
+    line-height: 70px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.feature-category .title::after {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: #ff523b;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.feature-category .col-3{
+    flex-basis: 30%;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    opacity: 70%;
+}
+
+.feature-category .col-3::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(165, 42, 42,0.5);
+    position:absolute;
+    top: 100%;
+    left: 0;
+    text-align: center;
+    line-height: 350px;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.feature-category .men::after{
+    content: "Men";
+}
+
+.feature-category .women::after{
+    content: "Women";
+}
+
+.feature-category .kids::after{
+    content: "Kids";
+}
+
+.feature-category .active{
+    opacity: 100%;
+}
+
+.feature-category .col-3:hover::after{
+    transition: all 0.6s;
+    top: 0;
+}
+

@@ -1,0 +1,46 @@
+.testimonials{
+    margin-top: 80px;
+}
+
+.test-row{
+    margin: 70px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+}
+
+.testimonials .test-col-3{
+    width: 300px;
+    box-shadow: 0 0 20px 0px rgb(0 0 0 / 10%);
+    cursor: pointer;
+    padding: 40px 20px;
+    transition: all .5s ease;
+}
+
+.testimonials  .fa-quote-left{
+    color: #ff523b;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.testimonials p{
+    margin: 10px 0;
+}
+
+.testimonials img{
+    margin: 20px 0 10px 0;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.testimonials h4{
+    font-weight: 500;
+}
+
+.testimonials .col-3:hover{
+    transform: translateY(-10px);
+}
+

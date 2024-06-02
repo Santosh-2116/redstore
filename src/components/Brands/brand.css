@@ -1,0 +1,17 @@
+.brands{
+    margin: 70px auto;
+}
+
+.brands .col-5{
+    flex-basis: 16%;
+    max-width: 180px;
+}
+
+.brands .col-5 img{
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.brands .col-5 img:hover{
+    filter: grayscale(0);
+}
